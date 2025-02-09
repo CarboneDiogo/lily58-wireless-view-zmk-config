@@ -9,7 +9,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 &mt {
-    tapping-term-ms = <200>;
+    tapping-term-ms = <250>;
     flavor = "tap-preferred";
     quick-tap-ms = <150>;
 };
@@ -121,7 +121,7 @@
 
         WinNoMods {
             label = "WINGaming";
-            display-name = "WINGGaming";
+            display-name = "WINGG";
             bindings = <
 &kp ESC     &kp N1  &kp N2  &kp N3        &kp N4        &kp N5                          &kp N6         &kp N7               &kp N8             &kp N9           &kp N0           &kp GRAVE
 &kp TAB     &kp Q   &kp W   &kp F         &kp P         &kp B                           &kp J          &kp L                &kp U              &kp Y            &kp SEMICOLON    &kp MINUS
