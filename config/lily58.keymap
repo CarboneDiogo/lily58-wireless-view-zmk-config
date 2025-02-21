@@ -28,11 +28,11 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC     &kp N1          &kp N2          &kp N3        &kp N4              &kp N5                          &kp N6         &kp N7               &kp N8             &kp N9           &kp N0           &kp GRAVE
-&kp TAB     &kp Q           &kp W           &kp F         &kp P               &kp B                           &kp J          &kp L                &kp U              &kp Y            &kp SEMICOLON    &kp MINUS
-&kp LSHIFT  &mt LEFT_GUI A  &mt LEFT_ALT R  &mt LSHIFT S  &mt LEFT_CONTROL T  &kp G                           &kp M          &mt RIGHT_CONTROL N  &mt RIGHT_SHIFT E  &mt RIGHT_ALT I  &mt RIGHT_GUI O  &kp SQT
-&kp LCTRL   &kp X           &kp C           &kp D         &kp V               &kp Z   &to 6        &to 3      &kp K          &kp H                &kp COMMA          &kp PERIOD       &kp FSLH         &kp CAPSLOCK
-                                            &kp LEFT_WIN  &kp LEFT_ALT        &mo 1   &kp ENTER    &kp SPACE  &kp BACKSPACE  &mo 2                &kp ESCAPE
+&kp ESC     &kp N1          &kp N2          &kp N3        &kp N4              &kp N5                          &kp N6           &kp N7               &kp N8             &kp N9           &kp N0           &kp GRAVE
+&kp TAB     &kp Q           &kp W           &kp F         &kp P               &kp B                           &kp J            &kp L                &kp U              &kp Y            &kp SEMICOLON    &kp MINUS
+&kp LSHIFT  &mt LEFT_GUI A  &mt LEFT_ALT R  &mt LSHIFT S  &mt LEFT_CONTROL T  &kp G                           &kp M            &mt RIGHT_CONTROL N  &mt RIGHT_SHIFT E  &mt RIGHT_ALT I  &mt RIGHT_GUI O  &kp SQT
+&kp LCTRL   &kp X           &kp C           &kp D         &kp V               &kp Z   &to 6        &to 3      &kp K            &kp H                &kp COMMA          &kp PERIOD       &kp FSLH         &kp BACKSLASH
+                                            &kp LEFT_WIN  &kp LEFT_ALT        &mo 1   &kp ENTER    &kp SPACE  &lt 2 BACKSPACE  &kp ESC              &kp CAPSLOCK
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -83,11 +83,11 @@
             label = "MAC";
             display-name = "Mac";
             bindings = <
-&kp ESC     &kp N1              &kp N2          &kp N3        &kp N4          &kp N5                          &kp N6         &kp N7           &kp N8             &kp N9           &kp N0               &kp GRAVE
-&kp TAB     &kp Q               &kp W           &kp F         &kp P           &kp B                           &kp J          &kp L            &kp U              &kp Y            &kp SEMICOLON        &kp MINUS
-&kp LSHIFT  &mt LEFT_CONTROL A  &mt LEFT_ALT R  &mt LSHIFT S  &mt LEFT_GUI T  &kp G                           &kp M          &mt RIGHT_GUI N  &mt RIGHT_SHIFT E  &mt RIGHT_ALT I  &mt RIGHT_CONTROL O  &kp SQT
-&kp LCTRL   &kp X               &kp C           &kp D         &kp V           &kp Z   &to 0        &to 3      &kp K          &kp H            &kp COMMA          &kp PERIOD       &kp FSLH             &kp CAPSLOCK
-                                                &kp LEFT_WIN  &kp LEFT_ALT    &mo 4   &kp ENTER    &kp SPACE  &kp BACKSPACE  &mo 5            &kp ESCAPE
+&kp ESC     &kp N1              &kp N2          &kp N3        &kp N4          &kp N5                          &kp N6           &kp N7           &kp N8             &kp N9           &kp N0               &kp GRAVE
+&kp TAB     &kp Q               &kp W           &kp F         &kp P           &kp B                           &kp J            &kp L            &kp U              &kp Y            &kp SEMICOLON        &kp MINUS
+&kp LSHIFT  &mt LEFT_CONTROL A  &mt LEFT_ALT R  &mt LSHIFT S  &mt LEFT_GUI T  &kp G                           &kp M            &mt RIGHT_GUI N  &mt RIGHT_SHIFT E  &mt RIGHT_ALT I  &mt RIGHT_CONTROL O  &kp SQT
+&kp LCTRL   &kp X               &kp C           &kp D         &kp V           &kp Z   &to 0        &to 3      &kp K            &kp H            &kp COMMA          &kp PERIOD       &kp FSLH             &kp BACKSLASH
+                                                &kp LEFT_WIN  &kp LEFT_ALT    &mo 4   &kp ENTER    &kp SPACE  &lt 5 BACKSPACE  &kp ESC          &kp CAPSLOCK
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
