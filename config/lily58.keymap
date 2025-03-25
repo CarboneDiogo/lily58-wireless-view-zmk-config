@@ -127,7 +127,7 @@
 &kp TAB     &kp Q   &kp W   &kp F         &kp P         &kp B                           &kp J          &kp L                &kp U              &kp Y            &kp SEMICOLON    &kp MINUS
 &kp LSHIFT  &kp A   &kp R   &kp S         &kp T         &kp G                           &kp M          &mt RIGHT_CONTROL N  &mt RIGHT_SHIFT E  &mt RIGHT_ALT I  &mt RIGHT_GUI O  &kp SQT
 &kp LCTRL   &kp X   &kp C   &kp D         &kp V         &kp Z   &to 0        &to 3      &kp K          &kp H                &kp COMMA          &kp PERIOD       &kp FSLH         &kp CAPSLOCK
-                            &kp LEFT_WIN  &kp LEFT_ALT  &mo 1   &kp ENTER    &kp SPACE  &kp BACKSPACE  &mo 2                &kp ESCAPE
+                            &kp LEFT_WIN  &kp LEFT_ALT  &mo 7   &kp ENTER    &kp SPACE  &kp BACKSPACE  &mo 8                &kp ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
